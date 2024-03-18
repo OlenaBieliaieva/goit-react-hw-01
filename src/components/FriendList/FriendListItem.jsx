@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import css from "./FriendList.module.css";
 import clsx from "clsx";
 
-export const Friend = ({ status, name, avatar, variant }) => {
+export const FriendListItem = ({ status, name, avatar, variant }) => {
   const textStatus = status ? "Online" : "Offline";
   return (
     <div>
@@ -20,7 +20,7 @@ export const Friend = ({ status, name, avatar, variant }) => {
   );
 };
 
-Friend.propTypes = {
+FriendListItem.propTypes = {
   status: PropTypes.bool,
   name: PropTypes.string,
   avatar: PropTypes.string,
