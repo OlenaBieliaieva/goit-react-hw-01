@@ -1,4 +1,3 @@
-import "./App.css";
 import userData from "../data/userData.json";
 import { Profile } from "./Profile/Profile";
 import friends from "../data/friends.json";
